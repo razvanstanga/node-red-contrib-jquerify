@@ -1,6 +1,6 @@
 {
     "name": "node-red-contrib-jquerify",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "A Node-RED node that uses jQuery in a JavaScript function block to run against the messages being received by the node",
     "repository": {
         "type": "git",
@@ -8,8 +8,7 @@
     },
     "dependencies": {
         "jquery": "^3.3.1",
-        "jsdom": "^11.6.2",
-        "xmlhttprequest": "^1.8.0"
+        "jsdom": "^11.6.2"
     },
     "inputs": 0,
     "keywords": [
