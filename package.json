@@ -1,0 +1,33 @@
+{
+    "name": "node-red-contrib-jquerify",
+    "version": "0.0.5",
+    "description": "A Node-RED node that uses jQuery in a JavaScript function block to run against the messages being received by the node",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/razvanstanga/node-red-contrib-jquerify.git"
+    },
+    "dependencies": {
+        "jquery": "^3.3.1",
+        "jsdom": "^11.6.2",
+        "xmlhttprequest": "^1.8.0"
+    },
+    "inputs": 0,
+    "keywords": [
+        "node-red",
+        "node-red-contrib",
+        "jquery"
+    ],
+    "node-red": {
+        "nodes": {
+            "jquerify": "jquerify/jquerify.js"
+        }
+    },
+    "author": {
+        "name": "Razvan Stanga"
+    },
+    "license": "Apache",
+    "bugs": {
+        "url": "https://github.com/razvanstanga/node-red-contrib-jquerify/issues"
+    },
+    "homepage": "https://github.com/razvanstanga/node-red-contrib-jquerify"
+}
